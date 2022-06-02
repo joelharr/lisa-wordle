@@ -85,6 +85,7 @@ export const getWordOfDay = () => {
     index++
     start.setDate(start.getDate() + 1)
   }
+  index = 1097; // loyal
 
   const nextDay = new Date(today)
   nextDay.setDate(today.getDate() + 1)
